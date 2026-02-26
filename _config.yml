@@ -1,0 +1,25 @@
+title: Marine Denolle
+description: AI-Enabled Earth Systems Scientist
+url: ""
+baseurl: ""
+markdown: kramdown
+permalink: /blog/:year/:month/:day/:title/
+
+collections:
+  posts:
+    output: true
+
+project_links:
+  research_home: "https://denolle-lab.github.io/"
+  ai_anchor: "https://denolle-lab.github.io/#ai"
+  sensing_anchor: "https://denolle-lab.github.io/#sensing"
+  climate_anchor: "https://denolle-lab.github.io/#climate"
+  agentic_earth: "https://denolle-lab.github.io/research/"
+  hazard_networks: "https://denolle-lab.github.io/projects/"
+  waveform_analysis: "https://denolle-lab.github.io/publications/"
+
+social_links:
+  email: "mdenolle@uw.edu"
+  linkedin: "https://www.linkedin.com/in/PLACEHOLDER"
+  github: "https://github.com/PLACEHOLDER"
+  scholar: "https://scholar.google.com/citations?user=PLACEHOLDER"
