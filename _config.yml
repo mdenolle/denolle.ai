@@ -23,3 +23,20 @@ social_links:
   linkedin: "https://www.linkedin.com/in/marine-denolle-b528144b/"
   github: "https://github.com/Denolle-lab"
   scholar: "https://scholar.google.com/citations?user=GR8BOxsAAAAJ&hl=en"
+
+profile:
+  portrait_url: "https://github.com/mdenolle.png"
+  portrait_alt: "Portrait of Marine Denolle"
+
+media:
+  featured_video:
+    title: "Featured Talk"
+    embed_url: ""
+    page_url: "https://denolle-lab.github.io/"
+  posts:
+    - title: "Recent keynote: AI for Earth Systems Monitoring"
+      url: "https://denolle-lab.github.io/"
+    - title: "Panel: Climate-Hazard Intelligence at Scale"
+      url: "https://denolle-lab.github.io/"
+    - title: "Lab update: Multi-sensor science and impact"
+      url: "https://denolle-lab.github.io/"
