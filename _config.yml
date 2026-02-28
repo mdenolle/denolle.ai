@@ -42,12 +42,3 @@ media:
     #   url: "https://denolle-lab.github.io/"
     # - title: "Lab update: Multi-sensor science and impact"
     #   url: "https://denolle-lab.github.io/"
-# GitHub Discussions & Giscus configuration
-giscus:
-  enabled: false
-  repo: ""
-  repo_id: ""
-  category: "Blog Discussions"
-  category_id: ""
-  mapping: "pathname"
-  theme: "light"

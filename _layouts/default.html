@@ -30,7 +30,6 @@
           <div class="container prose post-shell">
             <p class="post-meta">{{ page.date | date: "%B %-d, %Y" }}</p>
             <h1>{{ page.title }}</h1>
-            {% include discussion.html %}
             {{ content }}
             {% include discussion.html %}
             <p><a href="{{ '/blog/' | relative_url }}">&larr; Back to blog</a></p>

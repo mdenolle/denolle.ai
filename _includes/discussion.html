@@ -3,44 +3,21 @@
   {% assign discussion = page.discussion %}
   
   {% if discussion.url and discussion.url != "" %}
-    <!-- Discussion link at top of post -->
     <div class="post-discussion-header">
       <a href="{{ discussion.url }}" target="_blank" rel="noopener noreferrer">
         Discuss this post →
       </a>
     </div>
 
-    <!-- Discussion section at bottom of post -->
     <section class="post-discussion">
       <hr>
       <h3>Discussion</h3>
       
       <p>
         <a href="{{ discussion.url }}" target="_blank" rel="noopener noreferrer">
-          Join the discussion on GitHub
+          Join the collegial discussion on GitHub
         </a>
       </p>
-      
-      {% if site.giscus.enabled and site.giscus.enabled != false %}
-        <!-- Embed giscus if enabled -->
-        <script 
-          src="https://giscus.app/client.js"
-          data-repo="{{ site.giscus.repo }}"
-          data-repo-id="{{ site.giscus.repo_id }}"
-          data-category="{{ site.giscus.category | default: 'Blog Discussions' }}"
-          data-category-id="{{ site.giscus.category_id }}"
-          data-mapping="{{ site.giscus.mapping | default: 'pathname' }}"
-          data-strict="0"
-          data-reactions-enabled="1"
-          data-emit-metadata="0"
-          data-input-position="top"
-          data-theme="{{ site.giscus.theme | default: 'light' }}"
-          data-lang="en"
-          data-loading="lazy"
-          crossorigin="anonymous"
-          async>
-        </script>
-      {% endif %}
     </section>
   {% endif %}
 {% endif %}
