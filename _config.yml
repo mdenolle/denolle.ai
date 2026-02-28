@@ -24,19 +24,30 @@ social_links:
   github: "https://github.com/Denolle-lab"
   scholar: "https://scholar.google.com/citations?user=GR8BOxsAAAAJ&hl=en"
 
-profile:
+site_profile:
   portrait_url: "https://github.com/mdenolle.png"
   portrait_alt: "Portrait of Marine Denolle"
+  cv_repo_url: "https://github.com/mdenolle/marine-cv"
+  cv_pdf_url: "https://raw.githubusercontent.com/mdenolle/marine-cv/main/marine-cv-docs/rendercv_output/Marine_Denolle_CV.pdf"
 
 media:
   featured_video:
-    title: "Featured Talk"
+    title: "Enabling Data Discovery using AI and Cloud Systems"
     embed_url: ""
-    page_url: "https://denolle-lab.github.io/"
+    page_url: "https://youtu.be/Q6Gt0-S_9WA?si=pz6REZqXWsolYXjc"
   posts:
-    - title: "Recent keynote: AI for Earth Systems Monitoring"
-      url: "https://denolle-lab.github.io/"
-    - title: "Panel: Climate-Hazard Intelligence at Scale"
-      url: "https://denolle-lab.github.io/"
-    - title: "Lab update: Multi-sensor science and impact"
-      url: "https://denolle-lab.github.io/"
+    # - title: "Recent keynote: AI for Earth Systems Monitoring"
+    #   url: "https://denolle-lab.github.io/"
+    # - title: "Panel: Climate-Hazard Intelligence at Scale"
+    #   url: "https://denolle-lab.github.io/"
+    # - title: "Lab update: Multi-sensor science and impact"
+    #   url: "https://denolle-lab.github.io/"
+# GitHub Discussions & Giscus configuration
+giscus:
+  enabled: false
+  repo: ""
+  repo_id: ""
+  category: "Blog Discussions"
+  category_id: ""
+  mapping: "pathname"
+  theme: "light"

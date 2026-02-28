@@ -17,6 +17,10 @@
           <li><a href="{{ '/blog/' | relative_url }}">Blog</a></li>
           <li><a href="{{ '/contact/' | relative_url }}">Contact</a></li>
         </ul>
+        {% assign cv_link = site.site_profile.cv_pdf_url | default: site.site_profile.cv_repo_url %}
+        {% if cv_link and cv_link != "" %}
+          <a class="nav-cv" href="{{ cv_link }}" target="_blank" rel="noopener noreferrer">CV</a>
+        {% endif %}
       </nav>
     </header>
 
@@ -26,7 +30,9 @@
           <div class="container prose post-shell">
             <p class="post-meta">{{ page.date | date: "%B %-d, %Y" }}</p>
             <h1>{{ page.title }}</h1>
+            {% include discussion.html %}
             {{ content }}
+            {% include discussion.html %}
             <p><a href="{{ '/blog/' | relative_url }}">&larr; Back to blog</a></p>
           </div>
         </section>

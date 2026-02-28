@@ -1,14 +1,20 @@
 ---
 layout: default
-title: Blog
+title: Agents for Academic Practice
 permalink: /blog/
 ---
 <section class="section">
   <div class="container prose">
-    <h1>Blog</h1>
-    <p>Short updates on research, field deployments, and AI-enabled Earth systems methods.</p>
+    <h1>Agents for Academic Practice</h1>
+    <p>A running collection of informal opinion pieces on how I use agents in my work life and professional development.</p>
+    <p>These notes are spontaneous and practice-oriented, not peer-reviewed research outputs.</p>
+    <p><strong>Posting format:</strong> each post is a single markdown page, and can include a link to the public GitHub repository containing skills/instructions files.</p>
+
+    {% assign agent_posts = site.posts | where: "series", "agents-for-academic-practice" %}
+
+    {% if agent_posts.size > 0 %}
     <ul class="post-list">
-      {% for post in site.posts %}
+      {% for post in agent_posts %}
         <li>
           <article>
             <h2><a href="{{ post.url | relative_url }}">{{ post.title }}</a></h2>
@@ -16,9 +22,18 @@ permalink: /blog/
             {% if post.excerpt %}
               <p>{{ post.excerpt | strip_html }}</p>
             {% endif %}
+            {% if post.repo_url and post.repo_url != "" %}
+              <p><a href="{{ post.repo_url }}" target="_blank" rel="noopener noreferrer">Related GitHub repository</a></p>
+            {% endif %}
+            {% if post.skills_url and post.skills_url != "" %}
+              <p><a href="{{ post.skills_url }}" target="_blank" rel="noopener noreferrer">Skills / instructions files</a></p>
+            {% endif %}
           </article>
         </li>
       {% endfor %}
     </ul>
+    {% else %}
+      <p>No posts in this series yet. Add a markdown file in <code>_posts/</code> with <code>series: agents-for-academic-practice</code> in front matter to publish here.</p>
+    {% endif %}
   </div>
 </section>

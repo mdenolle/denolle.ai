@@ -118,6 +118,25 @@ button:focus-visible {
   background: #e7f0f2;
 }
 
+.nav-cv {
+  text-decoration: none;
+  color: #ffffff;
+  background: var(--primary);
+  border: 1px solid var(--primary);
+  border-radius: 999px;
+  padding: 0.35rem 0.8rem;
+  font-weight: 600;
+  line-height: 1;
+  white-space: nowrap;
+}
+
+.nav-cv:hover,
+.nav-cv:focus-visible {
+  background: var(--primary-strong);
+  border-color: var(--primary-strong);
+  color: #ffffff;
+}
+
 .section {
   padding: 3.5rem 0;
 }
@@ -337,6 +356,49 @@ button:focus-visible {
   flex-wrap: wrap;
 }
 
+/* Discussion section styling */
+.post-discussion-header {
+  margin: 1.5rem 0 1rem 0;
+  padding: 0.75rem 1rem;
+  background: #f0f6f9;
+  border-left: 3px solid var(--primary);
+  border-radius: var(--radius);
+}
+
+.post-discussion-header a {
+  text-decoration: none;
+  font-weight: 600;
+}
+
+.post-discussion-header a:hover {
+  text-decoration: underline;
+}
+
+.post-discussion {
+  margin-top: 2rem;
+  padding-top: 1.5rem;
+}
+
+.post-discussion h3 {
+  margin-top: 0;
+  color: var(--text);
+  font-size: 1.1rem;
+}
+
+.post-discussion a {
+  text-decoration: none;
+}
+
+.post-discussion a:hover {
+  text-decoration: underline;
+}
+
+.post-discussion hr {
+  border: none;
+  border-top: 1px solid var(--border);
+  margin: 0 0 1rem 0;
+}
+
 @media (max-width: 48rem) {
   .media-grid {
     grid-template-columns: 1fr;
@@ -344,6 +406,15 @@ button:focus-visible {
 
   .hero-head {
     align-items: center;
+  }
+
+  .nav {
+    flex-wrap: wrap;
+    gap: 0.75rem;
+  }
+
+  .nav-links {
+    gap: 0.5rem;
   }
 
   .hero-portrait {

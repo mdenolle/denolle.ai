@@ -1,6 +1,8 @@
 ---
 layout: default
 title: "AgenticEarth Update"
+series: agents-for-academic-practice
+repo_url: "https://github.com/mdenolle/marine-cv"
 ---
 This update covers progress on agentic workflows for Earth systems analysis.
 

@@ -6,14 +6,14 @@ title: Home
   <div class="container">
     <div class="hero-head">
       <h1>Marine Denolle</h1>
-      {% if site.profile.portrait_url and site.profile.portrait_url != "" %}
-        {% if site.profile.portrait_url contains '://' %}
-          <img class="hero-portrait" src="{{ site.profile.portrait_url }}" alt="{{ site.profile.portrait_alt }}">
+      {% if site.site_profile.portrait_url and site.site_profile.portrait_url != "" %}
+        {% if site.site_profile.portrait_url contains '://' %}
+          <img class="hero-portrait" src="{{ site.site_profile.portrait_url }}" alt="{{ site.site_profile.portrait_alt }}">
         {% else %}
-          <img class="hero-portrait" src="{{ site.profile.portrait_url | relative_url }}" alt="{{ site.profile.portrait_alt }}">
+          <img class="hero-portrait" src="{{ site.site_profile.portrait_url | relative_url }}" alt="{{ site.site_profile.portrait_alt }}">
         {% endif %}
       {% else %}
-        <div class="hero-portrait hero-portrait-fallback" role="img" aria-label="{{ site.profile.portrait_alt }}">MD</div>
+        <div class="hero-portrait hero-portrait-fallback" role="img" aria-label="{{ site.site_profile.portrait_alt }}">MD</div>
       {% endif %}
     </div>
     <p class="eyebrow">AI-Enabled Earth Systems Scientist</p>
