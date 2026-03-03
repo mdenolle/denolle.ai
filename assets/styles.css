@@ -425,3 +425,35 @@ button:focus-visible {
     flex-direction: column;
   }
 }
+
+/* ── Footnotes ── */
+.footnotes {
+  margin-top: 2.5rem;
+  padding-top: 1rem;
+  border-top: 1px solid var(--border);
+  font-size: 0.88rem;
+  color: var(--muted);
+}
+
+.footnotes ol {
+  padding-left: 1.4rem;
+}
+
+.footnotes li {
+  margin-bottom: 0.5rem;
+}
+
+.footnotes li p {
+  margin: 0;
+}
+
+sup {
+  font-size: 0.75em;
+  line-height: 0;
+  vertical-align: super;
+}
+
+a.reversefootnote {
+  text-decoration: none;
+  margin-left: 0.2em;
+}
