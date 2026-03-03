@@ -6,8 +6,7 @@ permalink: /blog/
 <section class="section">
   <div class="container prose">
     <h1>Agents for Academic Practice</h1>
-    <p>A running collection of informal opinion pieces on how I use agents in my work life and professional development.</p>
-    <p>These notes are spontaneous and practice-oriented, not peer-reviewed research outputs.</p>
+    <p>Field notes from an active researcher integrating generative AI into teaching, proposals, code, and mentoring — documenting what works, what fails, and what I haven't resolved.</p>
     <p><strong>Posting format:</strong> each post is a single markdown page, and can include a link to the public GitHub repository containing skills/instructions files.</p>
     <p><strong>Community note:</strong> to comment, open a post and click <em>Discuss this post →</em>. Discussions happen on GitHub to keep the conversation open, searchable, and collegial.</p>
 
