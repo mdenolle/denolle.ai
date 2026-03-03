@@ -21,7 +21,7 @@ I prompted: *generate an image of this slide.*
 What came back was this:
 
 <figure style="text-align:center; margin: 2em 0;">
-  <img src="/assets/images/ChatGPT Image Jan 29, 2026, 06_39_53 AM.png" alt="One Hydromechanical System, Two Seismological Traditions — a conceptual slide contrasting environmental seismology and earthquake seismology around shared hydromechanical state variables" style="max-width:100%; border-radius:6px;">
+  <img src="{{ '/assets/images/hydromechanical-slide.png' | relative_url }}" alt="One Hydromechanical System, Two Seismological Traditions — a conceptual slide contrasting environmental seismology and earthquake seismology around shared hydromechanical state variables" style="max-width:100%; border-radius:6px;">
   <figcaption style="font-size:0.9em; color:#666; margin-top:0.5em;">Generated in a single prompt by ChatGPT, after months of accumulated context from my uploaded papers and proposals.</figcaption>
 </figure>
 
@@ -75,7 +75,7 @@ Foundation models hallucinate. They produce confident, cleanly formatted output 
 
 The models also guess when they do not have the knowledge in training or in context (hallucination). They do not flag uncertainty in domain-specific physics. They do not say, "I am unsure whether this P-wave polarity pattern is correct for a thrust mechanism." They present it. You verify it or you accept it uncritically. Maybe this will change in the future.
 
-This is why domain expertise has become *more* important in my workflow, not less. The AI accelerates production, and I correct it when needed. Every post in this series will include a section on where the AI failed or where I overrode it. T
+This is why domain expertise has become *more* important in my workflow, not less. The AI accelerates production, and I correct it when needed. Every post in this series will include a section on where the AI failed or where I overrode it.
 
 ## The Pattern I Am Observing
 

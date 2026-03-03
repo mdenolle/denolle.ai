@@ -126,5 +126,18 @@ For each new blog post:
 **Discussions tab is missing in your repository**
 - Enable Discussions in your repository Settings (see step 1 above)
 
+### Add images to posts
+1. Save images to `assets/images/` using slug-case filenames (lowercase, hyphens, no spaces):
+   - **Good:** `hydromechanical-slide.png`
+   - **Bad:** `ChatGPT Image Jan 29, 2026, 06_39_53 AM.png`
+2. Reference in posts with the `relative_url` filter:
+   ```html
+   <figure style="text-align:center; margin: 2em 0;">
+     <img src="{{ '/assets/images/your-image.png' | relative_url }}" alt="Description" style="max-width:100%; border-radius:6px;">
+     <figcaption style="font-size:0.9em; color:#666; margin-top:0.5em;">Caption text.</figcaption>
+   </figure>
+   ```
+3. Verify locally with `bundle exec jekyll serve` before pushing.
+
 ### Update styling
 Edit `assets/styles.css`.
