@@ -5,7 +5,7 @@ series: agents-for-academic-practice
 repo_url: "https://github.com/mdenolle/academic-practice-agents"
 skills_url: ""
 discussion:
-  url: "https://github.com/mdenolle/academic-practice-agents/discussions/"
+  url: "https://github.com/mdenolle/academic-practice-agents/discussions/4"
 ---
 
 ## The Slide That Started This
