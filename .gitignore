@@ -4,4 +4,4 @@ _site/
 .jekyll-metadata
 .bundle/
 vendor/bundle/
-./claude/agents/blog-agent.agent.md
+.claude/
