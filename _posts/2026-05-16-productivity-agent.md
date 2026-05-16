@@ -3,8 +3,7 @@ layout: post
 title: "From Voice to Workplan: Maleen Kidiwela’s Agentic Productivity Loop"
 date: 2026-05-16
 excerpt: "A postdoc’s workflow with Obsidian, Claude, and VaultNotes suggests a new loop from speech to planning to scientific execution."
-tags: [AI, productivity, science, workflows, agents, Obsidian, Claude]
----
+tags: [AI, productivity, science, workflows, agents, Obsidian, Claude]series: agents-for-academic-practice---
 
 Last month, UW Postdoc Maleen Kidiwela and I have been experimenting with  a workflow he has been quietly building for his own research productivity. The stack was novel to me: Obsidian, Claude, and a tool he developed called VaultNotes. In practice, it behaves more like a personal research operating system than a conventional note-taking setup.
 

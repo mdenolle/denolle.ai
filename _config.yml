@@ -42,3 +42,6 @@ media:
     #   url: "https://denolle-lab.github.io/"
     # - title: "Lab update: Multi-sensor science and impact"
     #   url: "https://denolle-lab.github.io/"
+
+future: true
+timezone: America/Los_Angeles
