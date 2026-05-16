@@ -1,5 +1,5 @@
 ---
-layout: post
+layout: default
 title: "From Voice to Workplan: Maleen Kidiwela’s Agentic Productivity Loop"
 date: 2026-05-16
 excerpt: "A postdoc’s workflow with Obsidian, Claude, and VaultNotes suggests a new loop from speech to planning to scientific execution."
