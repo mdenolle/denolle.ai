@@ -107,7 +107,7 @@ Maleen’s workflow does not answer these questions yet. But the real significan
 
 VaultNotes is open source and publicly available at [github.com/MaleenKidiwela/vaultnotes](https://github.com/MaleenKidiwela/vaultnotes); anyone with an Obsidian vault can install it with a single command and run their own copy. Gemini is used for embeddings of the notes, Claude for the rest. Check out what the dashboard looks like [here](https://maleenkidiwela.github.io/notes).
 
-![VaultNotes chat panel](./vaultnotes-chat.png)
+![VaultNotes chat panel](/assets/images/vaultnotes-chat.png)
 *Screenshot of the VaultNotes "Ask the notes" chat panel answering a question grounded in the published vault.*
 
 ---
